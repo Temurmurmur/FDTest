@@ -1,0 +1,25 @@
+@media screen and(max-width: 1300px) {
+  .main {
+    width: 100%;
+  }
+
+  .developments__item {
+    &:nth-child(3n) {
+      margin-right: 22px;
+    }
+  }
+}
+
+@media screen and(max-width: 918px) {
+  .developments {
+    flex-direction: column;
+  }
+  .developments__item {
+    margin: auto;
+    margin-bottom: 38px;
+
+    &:nth-child(3n) {
+      margin-right: auto;
+    }
+  }
+}

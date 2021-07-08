@@ -1,0 +1,10 @@
+@include font("OSans", "OpenSans-Light", "300", "normal");
+@include font("OSans", "OpenSans-Regular", "400", "normal");
+@include font("OSans", "OpenSans-Bold", "700", "normal");
+
+
+
+* {
+  font-family: 'OSans';
+  font-size: 16px;
+}
